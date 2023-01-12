@@ -13,8 +13,8 @@ from tqdm import tqdm
 from wordcloud import WordCloud, ImageColorGenerator
 from PIL import Image
 
-path_to_font = "./www/DMSerifDisplay-Regular.ttf"
-mask = np.array(Image.open(r"./www/mask_circle.png"))
+path_to_font = "./www/BreeSerif-Regular.ttf"
+mask = np.array(Image.open(r"./www/square.png"))
 
 ####################
 # Word Cloud Generator
