@@ -90,6 +90,7 @@ class WordCloudGenerator:
                               color_func=self.color_func,
                               font_path=self.font_path,
                               collocations=self.collocations,
+                              stopwords=self.stopwords,
                               prefer_horizontal=self.prefer_horizontal,
                               mask=self.mask,
                               width=self.width,
