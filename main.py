@@ -4,20 +4,24 @@ import datetime as dt
 from scripts.tokenizer import WordTokenizer
 from scripts.wordcloud import WordCloudGenerator
 
-additional_stopwords = [
-                        "bilingual",
-                       "bilingualism",
-                       "bilinguals",
-                       #"bilingually",
-                       #"monolingual",
-                       "monolingualbilingual",
-                       "language",
-                       #"study"
-                       ]
 
 tokenizer = WordTokenizer(lemmatize=False)
 
 def main():
+    
+    additional_stopwords = [
+                        "bilingual",
+                       "bilingualism",
+                       "bilinguals",
+                       "bilingually",
+                       "monolingual",
+                       "monolinguals",
+                       "monolingualbilingual",
+                       "language",
+                       "children"
+                       #"study"
+                       ]
+
     data = pd.read_csv("./data/all_titles.csv")
 
     data['decade'] = np.floor_divide(pd.DatetimeIndex(data['publication_date']).year, 10).astype(int) * 10
