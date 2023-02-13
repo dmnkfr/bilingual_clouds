@@ -8,4 +8,4 @@ I will use the PubMed API to get titles of all publications from their database 
 
 To run your own query and create a word cloud for each decade, run:
 
-`python main.py -e <email> -q <query> -s <stopwords>
+`python main.py -e <email> -q <query> -s <stopwords>`
