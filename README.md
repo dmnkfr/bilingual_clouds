@@ -6,6 +6,10 @@ I will use the PubMed API to get titles of all publications from their database 
 
 ![20202s](https://github.com/dmnkfr/bilingual_clouds/blob/main/output/2020s.png?raw=true)
 
+To reproduce the wordclouds, run:
+
+`python main.py -e firstname.lastname@email.com -q "bilingual*" -s bilingual bilingualism bilinguals bilingually monolingual monolinguals  monolingualbilingual language children`
+
 To run your own query and create a word cloud for each decade, run:
 
 `python main.py -e <email> -q <query> -s <stopwords>`
