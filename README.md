@@ -8,7 +8,10 @@ https://github.com/dmnkfr/bilingual_clouds/blob/main/README.md
 
 To reproduce the wordclouds, run:
 
-`python main.py -e firstname.lastname@email.com -q "bilingual*" -s bilingual bilingualism bilinguals bilingually monolingual monolinguals  monolingualbilingual language children`
+    python main.py `
+      -e firstname.lastname@email.com `
+      -q "bilingual*" `
+      -s bilingual bilingualism bilinguals bilingually monolingual monolinguals  monolingualbilingual language children
 
 To run your own query and create a word cloud for each decade, run:
 
