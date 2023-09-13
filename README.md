@@ -1,9 +1,9 @@
 # Trends in Bilingualism
 
-A little project on looking into trends in Bilingualism from 1980 - 2023.
+A little project on looking into trends in Bilingualism from 1950 - 2023.
 
 I will use the PubMed API to get titles of all publications from their database for the keyword "bilingual*" and create a word cloud per decade to get an idea of trends i bilingualism research.
-
+https://github.com/dmnkfr/bilingual_clouds/blob/main/README.md
 ![20202s](https://github.com/dmnkfr/bilingual_clouds/blob/main/output/2020s.png?raw=true)
 
 To reproduce the wordclouds, run:
