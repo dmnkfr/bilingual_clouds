@@ -13,6 +13,6 @@ To reproduce the wordclouds, run:
       -q "bilingual*" `
       -s bilingual bilingualism bilinguals bilingually monolingual monolinguals  monolingualbilingual language children
 
-To run your own query and create a word cloud for each decade, run:
+To run your own query and create a word cloud for each decade, you can run:
 
 `python main.py -e <email> -q <query> -s <stopwords>`
